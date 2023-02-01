@@ -13,6 +13,7 @@ flag = None
 def restart():
     global total_sweet
     total_sweet = 221
+    
 
 @bot.message_handler(commands=["start"]) #вызов функции по команде в списке
 def start(message):
